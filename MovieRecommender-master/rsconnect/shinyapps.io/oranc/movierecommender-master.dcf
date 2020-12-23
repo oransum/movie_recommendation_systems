@@ -1,0 +1,10 @@
+name: movierecommender-master
+title:
+username:
+account: oranc
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3382285
+bundleId: 3972924
+url: https://oranc.shinyapps.io/movierecommender-master/
+when: 1607640754.75442
