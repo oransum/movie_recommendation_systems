@@ -5,13 +5,6 @@ Movie Recommendation Systems
 
 -----
 
-
-```r
-library(readr)
-library(recommenderlab)
-library(Matrix)
-```
-
 ## System 1 - by Movie Popularity
 
 - In this system, we discussed two recommendation schemes which are top-ten most popular movies and top-ten highly-rated movies. 
@@ -21,6 +14,12 @@ library(Matrix)
 - Therefore, we consider both popular and highly-rated movies. We average rating by movie and filter movies if number of reviews is less than 60. The reason for using 60 is because it is approximately 1% of all users. It can be further fine-tuned to achieve a better user experience. Finally, we show top-10 highly-rated movies by genre to users.
 
 - The pre-processed file, "sys1_by_rating.csv", is storing the top-10 highly-rated movies by genre.
+
+```r
+library(readr)
+library(recommenderlab)
+library(Matrix)
+```
 
 ```r
 sys1_by_rating <- read_delim("sys1_by_rating.csv", 
