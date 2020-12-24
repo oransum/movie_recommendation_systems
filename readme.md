@@ -1,7 +1,7 @@
 Movie Recommendation Systems
 ================
-Oran Chan, Edward Ma
-Dec-8-2020
+- Oran Chan, Edward Ma
+- Dec-8-2020
 
 -----
 
