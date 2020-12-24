@@ -255,7 +255,7 @@ ev_results <- evaluate(es, algorithms, type = "ratings")
 plot(ev_results, annotate=c(1,3), type='b', legend="bottomright", col=c('darkred','cyan','orange','darkgreen'))
 ```
 
-![](PSL_project4_files/figure-html/unnamed-chunk-8-1.png)<!-- -->
+![](image/figure-html/unnamed-chunk-8-1.png)<!-- -->
 
 #### Prediction Error comparison
 
