@@ -1,21 +1,9 @@
----
-title: "Movie Recommendation Systems"
-author: "Oran Chan, Edward Ma"
-date: 'Dec-8-2020'
-output:
-  # github_document:
-  #   pandoc_args: --webtex
-  html_document:
-    keep_md: true
-    pandoc_args: --webtex
-    theme: readable
-    toc: yes
-  pdf_document: default
-urlcolor: cyan
----
-# Recommendation Systems
+Recommendation Systems
+================
+Oran Chan, Edward Ma
+Dec-8-2020
 
-
+-----
 
 
 ```r
